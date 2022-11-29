@@ -1,0 +1,26 @@
+// {
+//   "comilerOptions": {
+//     "target": "es2017",  
+//     "module": "commonjs",
+//     "allowJs": true,                               
+//     "esModuleInterop": true,  
+//     "allowSyntheticDefaultImports": true,
+//     "skipLibCheck": true,
+//     "forceConsistentCasingInFileNames": true,
+//     "outdir": "dist",
+//     "noEmit": false                 
+//   }
+// }
+{
+  "compilerOptions": {    
+    "outDir": "dist",
+    "module": "commonjs",
+    "target": "es2017",
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "noImplicitAny": true,
+    "sourceMap": false
+  }
+
+}
